@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSE</title>
+  <link rel="stylesheet" href="./style2.css">
+  <link rel="stylesheet" href="./responsive2.css">
+</head>
+
+<body>
+  <div class="main_container1">
+    <header>
+      <div class="subH">
+        <img src="logo.png" alt="NIT PUDUCHERRY" srcset="">
+        <h1 id="name">
+          NIT PUDUCHERRY</h1>
+
+      </div>
+    </header>
+    <div class="cont_hold">
+      <select class="dom" id="s1" onchange="insert1('s1','s2')">
+        <option value="S-0">-- Sem --</option>
+        <option value="S-1">Semester-1</option>
+        <option value="S-2">Semester-2</option>
+        <option value="S-3">Semester-3</option>
+        <option value="S-4">Semester-4</option>
+        <option value="S-5">Semester-5</option>
+        <option value="S-6">Semester-6</option>
+        <option value="S-7">Semester-7</option>
+        <option value="S-8">Semester-8</option>
+      </select>
+
+      <select class="dom" id="s2" onchange="insert2('s2','s3')">
+        <option value="--">--</option>
+      </select>
+
+      <select class="dom" id="s3">
+        <option value="--">--</option>
+      </select>
+
+      <button class="dom btn" id="search">
+        Find
+      </button>
+    </div>
+    <div class="ifm invisible">
+      <iframe src="" name="ifrm" height="600px" width="100%" title="Iframe Example">
+      </iframe>
+    </div>
+  </div>
+  <script src="CSEscript.js">
+  </script>
+</body>
+
+</html>
